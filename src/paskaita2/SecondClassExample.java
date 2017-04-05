@@ -22,6 +22,12 @@ public class SecondClassExample {
         SecondClassExample className = new SecondClassExample();
         className.example2();
         SecondClassExample.example2();
+
+
+        // konstruktoriaus iskvietimas
+        ConstructorExample co = new ConstructorExample();
+        ConstructorExample co1 = new ConstructorExample(12);
+
     }
 
     //metodas nieko negrazina
